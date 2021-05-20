@@ -1,0 +1,98 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://93b37e6c-f4b4-4ccf-b120-6c03f563f2d9",
+	"@type": "sc:Manifest",
+	"label": "Label - eddie",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "eddie",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Attribution - eddie",
+	"sequences": [
+		{
+			"@id": "http://746b74f4-df85-46db-8de0-4582e995ae21",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://7b5cb326-19cd-414b-9ada-df57d0de7986",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 4032,
+					"width": 3024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3aa2fee6-639b-43aa-8f99-693184309ee4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://127.0.0.1:8182/iiif/2/eddie.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://127.0.0.1:8182/iiif/2/eddie.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4032,
+								"width": 3024
+							},
+							"on": "http://7b5cb326-19cd-414b-9ada-df57d0de7986"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

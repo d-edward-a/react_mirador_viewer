@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Create manifests
+https://iiif-manifest-editor.textandbytes.com/#/?_k=p7gu9p
+
+### Run React locally
+`npm start` or `yarn start`
+Local: `http://localhost:3000`
+On Your Network: `http://192.168.0.87:3000`
+
+### Run Cantaloupe
+`java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.3.1.war`
+
+### Run server for manifests
+`http-server --cors`
+Available on: `http://192.168.0.87:8080` or `http://127.0.0.1:8080`
+Example resource: `http://127.0.0.1:8080/manifest.json`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +84,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
