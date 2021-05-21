@@ -13,7 +13,7 @@ On Your Network: `http://192.168.0.87:3000`
 ### Run Cantaloupe
 `java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.3.1.war`
 
-### Run server for manifests
+### Run server for manifests inside Cantaloupe folder
 `http-server --cors`
 Available on: `http://192.168.0.87:8080` or `http://127.0.0.1:8080`
 Host manifest in GitHub: `https://gist.github.com/s`
