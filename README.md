@@ -16,6 +16,7 @@ On Your Network: `http://192.168.0.87:3000`
 ### Run server for manifests
 `http-server --cors`
 Available on: `http://192.168.0.87:8080` or `http://127.0.0.1:8080`
+Host manifest in GitHub: `https://gist.github.com/s`
 Example resource: `http://127.0.0.1:8080/manifest.json`
 
 ## Available Scripts
